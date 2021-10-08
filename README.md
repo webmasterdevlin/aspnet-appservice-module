@@ -4,6 +4,8 @@
 
 ## Usage
 
+Sample usage:
+
 ```
 
 resource "random_string" "password" {
