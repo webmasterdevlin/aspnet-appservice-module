@@ -9,9 +9,11 @@ output "app_service_default_hostname" {
 }
 
 output "sql_server_name" {
-  value = azurerm_sql_server.ss.name
+  value       = azurerm_sql_server.ss.name
+  description = "The name of SQL Server"
 }
 
 output "sql_database_name" {
-  value = azurerm_sql_database.sd.name
+  value       = azurerm_sql_database.sd.name
+  description = "The name of SQL Database"
 }
